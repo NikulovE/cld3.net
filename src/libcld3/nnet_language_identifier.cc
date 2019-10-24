@@ -89,9 +89,9 @@ int FindNumValidBytesToProcess(const string &text) {
 }
 }  // namespace
 
-const int NNetLanguageIdentifier::kMinNumBytesToConsider = 140;
+const int NNetLanguageIdentifier::kMinNumBytesToConsider = 10;
 const int NNetLanguageIdentifier::kMaxNumBytesToConsider = 700;
-const int NNetLanguageIdentifier::kMaxNumInputBytesToConsider = 10000;
+const int NNetLanguageIdentifier::kMaxNumInputBytesToConsider = 4000;
 const int NNetLanguageIdentifier::kNumSnippets = 5;
 const char NNetLanguageIdentifier::kUnknown[] = "und";
 const float NNetLanguageIdentifier::kReliabilityThreshold = 0.7f;
