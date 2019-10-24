@@ -44,7 +44,7 @@ var lang = detector.DetectLanguage("Hello, how are you? Привет, как д�
 ```
 ```json
 {
-  "language": "English",
+  "language": "en",
   "probability": 0.855358,
   "is_reliable": 1,
   "proportion": 1
