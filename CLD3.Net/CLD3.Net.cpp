@@ -42,7 +42,7 @@ System::String^ CLD3Net::LanguageDetector::DetectNMostFreqLangs(System::String^ 
 			for (int i = 0; i < numberOfLangs; i++) {
 				auto result = languages[i];
 				std::string language = result.language;
-				jsonOut = jsonOut.append("{\"language\":\"").append(result.language).append("\",\"probability\":").append(std::to_string(result.probability)).append(",\"is_reliable\":").append(std::to_string(result.is_reliable)).append(",\"proportion\":").append(std::to_string(result.proportion)).append("},");
+				jsonOut = jsonOut.append("{\"language\":\"").append(codeToLangName[result.language]).append("\",\"probability\":").append(std::to_string(result.probability)).append(",\"is_reliable\":").append(std::to_string(result.is_reliable)).append(",\"proportion\":").append(std::to_string(result.proportion)).append("},");
 				//{"language":"en", "probability" : 0.0, "is_reliable" : false, "proportion" : 0.0}
 				
 			}
