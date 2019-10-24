@@ -37,7 +37,7 @@ using namespace std;
 #endif
 #endif
 
-NNetLanguageIdentifier* lang_id = new NNetLanguageIdentifier(0, 1000);
+NNetLanguageIdentifier* lang_id = new NNetLanguageIdentifier(0, 4000);
 
 // Min:
 // Minimum number of bytes needed to make a prediction. If the default
