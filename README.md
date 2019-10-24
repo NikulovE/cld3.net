@@ -8,6 +8,7 @@ thanks ezra100 for library https://gist.github.com/ezra100/ba69ec42600b2baa7430d
 <br>
 To solve issue with angle-brackets in headers extract google.zip (headers) to 
 C:\Program Files (x86)\Microsoft Visual Studio\2019\%VSversion%\VC\Tools\MSVC\%msvcversion%\include
+<br>
 by default project configured for VS2019 .net 4.6.1
 
 Detect for 3 possible languages:
