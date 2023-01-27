@@ -19,35 +19,21 @@ var languges = detector.DetectNMostFreqLangs("Hello, how are you? Привет, 
 ```json
 [
   {
-    "language": "ru",
-    "probability": 0.9771,
+    "language": "Russian",
+    "probability": 0.977100,
     "is_reliable": 1,
     "proportion": 0.612245
   },
   {
-    "language": "en",
+    "language": "English",
     "probability": 0.998582,
     "is_reliable": 1,
     "proportion": 0.387755
   },
   {
-    "language": "und",
-    "probability": 0,
+    "language": "Undefined Language",
+    "probability": 0.000000,
     "is_reliable": 0,
-    "proportion": 0
+    "proportion": 0.000000
   }
 ]
-```
-Detect language:
-```csharp
-var detector = new CLD3Net.LanguageDetector();
-var lang = detector.DetectLanguage("Hello, how are you? Привет, как дела?");
-```
-```json
-{
-  "language": "en",
-  "probability": 0.855358,
-  "is_reliable": 1,
-  "proportion": 1
-}
-```
