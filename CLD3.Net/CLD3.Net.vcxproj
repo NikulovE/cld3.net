@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{05D3C2BD-7FB2-46F9-A969-3CAA1757ACAF}</ProjectGuid>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+	  <TargetFramework>net6.0</TargetFramework>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>CLD3Net</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
@@ -30,28 +30,28 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CLRSupport>true</CLRSupport>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -75,14 +75,14 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\NikulovE\source\repos\CLD3\src\google;C:\Users\NikulovE\source\repos\CLD3\third_party;C:\Users\NikulovE\source\repos\CLD3\src\libcld3\cld_3\protos;C:\Users\NikulovE\source\repos\CLD3\src\libcld3\script_span;C:\Users\NikulovE\source\repos\CLD3\src\libcld3;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\%username%\source\repos\CLD3\src\google;C:\Users\%username%\source\repos\CLD3\third_party;C:\Users\%username%\source\repos\CLD3\src\libcld3\cld_3\protos;C:\Users\%username%\source\repos\CLD3\src\libcld3\script_span;C:\Users\%username%\source\repos\CLD3\src\libcld3;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\NikulovE\source\repos\CLD3\src\google;C:\Users\NikulovE\source\repos\CLD3\third_party;C:\Users\NikulovE\source\repos\CLD3\src\libcld3\cld_3\protos;C:\Users\NikulovE\source\repos\CLD3\src\libcld3\script_span;C:\Users\NikulovE\source\repos\CLD3\src\libcld3;$(IncludePath)</IncludePath>
+    <IncludePath>C:\Users\%username%\source\repos\CLD3\src\google;C:\Users\%username%\source\repos\CLD3\third_party;C:\Users\%username%\source\repos\CLD3\src\libcld3\cld_3\protos;C:\Users\%username%\source\repos\CLD3\src\libcld3\script_span;C:\Users\%username%\source\repos\CLD3\src\libcld3;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
