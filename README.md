@@ -37,7 +37,7 @@ var languges = detector.DetectNMostFreqLangs("Hello, how are you? Привет, 
     "proportion": 0.000000
   }
 ]
-
+```
 Sample in .NetCoreApp:
 ```csharp
 public static void Main(string[] args)
