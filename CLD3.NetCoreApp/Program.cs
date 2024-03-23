@@ -14,12 +14,4 @@ namespace LanguageDetectionApp
         }
 
     }
-
-    public class Prediction
-    {
-        public string language { get; set; }
-        public float probability { get; set; }
-        public int is_reliable { get; set; }
-        public float proportion { get; set; }
-    }
 }
