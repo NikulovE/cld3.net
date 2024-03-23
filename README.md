@@ -46,3 +46,4 @@ public static void Main(string[] args)
     var Rulanguage=detector.DetectLanguages("Привет, как дела?", 3);
     var Enlanguage=detector.DetectLanguages("How are you?", 3);
 }
+```
